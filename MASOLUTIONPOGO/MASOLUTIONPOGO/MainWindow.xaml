@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MASOLUTIONPOGO"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="MainWindow" Height="521" Width="800" FontSize="50">
+    <StackPanel x:Name="StackPanelMain">
+        <WrapPanel>
+            <TextBlock Width="300">Name</TextBlock>
+            <TextBox Width="300" x:Name="TextBoxName"></TextBox>
+        </WrapPanel>
+        <TextBlock x:Name="TextBlockGame">Allo5</TextBlock>
+        <TextBlock>Allo1</TextBlock>
+        <TextBlock>Allo2</TextBlock>
+        <TextBlock>Allo3</TextBlock>
+        <TextBox></TextBox>
+        <Button x:Name="ButtonClickMe">Click me!</Button>
+    </StackPanel>
 </Window>
